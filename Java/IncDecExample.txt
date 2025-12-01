@@ -1,0 +1,12 @@
+public class  {
+    public static void main(String[] args) {
+        int x = 10;
+        
+        System.out.println("Original: " + x);
+        System.out.println("Post-increment: " + (x++)); // prints 10, then x becomes 11
+        System.out.println("After post-increment: " + x);
+        System.out.println("Pre-increment: " + (++x));  // x becomes 12, then prints 12
+        System.out.println("Post-decrement: " + (x--)); // prints 12, then x becomes 11
+        System.out.println("Pre-decrement: " + (--x));  // x becomes 10, then prints 10
+    }
+}

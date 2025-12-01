@@ -1,0 +1,8 @@
+public class Revise{
+    public static void main (String[] args) {
+        System.out.println("Let us revise! ");
+        
+        for(int i=0; i< a1.length; i++){
+            System.out.println("the input argument: "+a1[i]);
+    }
+}

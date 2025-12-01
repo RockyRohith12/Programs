@@ -1,0 +1,7 @@
+public class  {
+    public static void main(String[] args) {
+        int a = 12;   // 0000 1100 (binary)
+        int result = ~a;  
+        System.out.println("~a = " + result);  // -13 (2’s complement form)
+    }
+}
